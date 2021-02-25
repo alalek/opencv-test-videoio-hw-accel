@@ -32,9 +32,4 @@ RUN apt-get -y install libgstreamer1.0-0 libgstreamer1.0-dev \
     gstreamer1.0-plugins-ugly gstreamer1.0-vaapi gstreamer1.0-tools \
     || true
 
-# Build OpenCV-Debug
-COPY . /root/opencv
-RUN cd /root/opencv && rm -rf build && mkdir -p build && cd build && \
-    cmake -DCMAKE_BUILD_TYPE=Debug .. && make -j20
-
 CMD ["/bin/bash"]

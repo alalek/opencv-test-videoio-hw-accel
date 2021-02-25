@@ -35,9 +35,4 @@ RUN apt-get -y install libgstreamer1.0-0 libgstreamer1.0-dev \
 # Replace intel-media-va-driver with non-free version
 RUN apt-get install -y intel-media-va-driver-non-free
 
-# Build OpenCV-Debug
-COPY . /root/opencv
-RUN cd /root/opencv && rm -rf build && mkdir -p build && cd build && \
-    cmake -DCMAKE_BUILD_TYPE=Debug .. && make -j20
-
 CMD ["/bin/bash"]

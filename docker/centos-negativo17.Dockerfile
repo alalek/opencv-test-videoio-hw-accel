@@ -31,9 +31,4 @@ RUN yum install -y gstreamer1-devel gstreamer1-plugins-base-devel gstreamer1-plu
 # cmake 3.x
 RUN yum -y install cmake3 && cp -f /usr/bin/cmake3 /usr/bin/cmake || true
 
-# Build OpenCV-Debug
-COPY . /root/opencv
-RUN cd /root/opencv && rm -rf build && mkdir -p build && cd build && \
-    cmake -DCMAKE_BUILD_TYPE=Debug .. && make -j20
-
 CMD ["/bin/bash"]

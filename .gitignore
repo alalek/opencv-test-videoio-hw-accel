@@ -1,6 +1,8 @@
 # ignore dot files/directories
 .*
 !.gitignore
+logs
+build/*
 
 *.log
 

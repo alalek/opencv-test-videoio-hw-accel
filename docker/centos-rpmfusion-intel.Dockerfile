@@ -41,9 +41,4 @@ RUN yum install -y gstreamer1-devel gstreamer1-plugins-base-devel gstreamer1-plu
 # groupupdate Multimedia
 RUN dnf -y groupupdate Multimedia
 
-# Build OpenCV-Debug
-COPY . /root/opencv
-RUN cd /root/opencv && rm -rf build && mkdir -p build && cd build && \
-    cmake -DCMAKE_BUILD_TYPE=Debug .. && make -j20
-
 CMD ["/bin/bash"]

@@ -34,9 +34,4 @@ RUN dnf install -y ffmpeg ffmpeg-devel
 # GStreamer
 RUN yum install -y gstreamer1-devel gstreamer1-plugins-base-devel gstreamer1-plugins-good gstreamer1-plugins-ugly gstreamer1-plugins-bad-free gstreamer1-plugins-bad-free-devel
 
-# Build OpenCV-Debug
-COPY . /root/opencv
-RUN cd /root/opencv && rm -rf build && mkdir -p build && cd build && \
-    cmake -DCMAKE_BUILD_TYPE=Debug .. && make -j20
-
 CMD ["/bin/bash"]

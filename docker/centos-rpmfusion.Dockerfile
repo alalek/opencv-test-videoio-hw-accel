@@ -33,9 +33,4 @@ RUN yum -y install cmake3 && cp -f /usr/bin/cmake3 /usr/bin/cmake || true
 # i965 driver
 RUN yum -y install libva-intel-driver
 
-# Build OpenCV-Debug
-COPY . /root/opencv
-RUN cd /root/opencv && rm -rf build && mkdir -p build && cd build && \
-    cmake -DCMAKE_BUILD_TYPE=Debug .. && make -j20
-
 CMD ["/bin/bash"]
