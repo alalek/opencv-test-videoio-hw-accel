@@ -20,4 +20,80 @@ libmfx.x86_64                      1.21-2.el7            @epel
 libva.x86_64                       1.8.3-1.el7           @base                  
 libva-devel.x86_64                 1.8.3-1.el7           @base                  
 libva-intel-driver.x86_64          1.8.3-4.el7           @rpmfusion-free-updates
-[  PASSED  ] 246 tests.
+================================================ ACCELERATION ALL
+VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 30.1538
+VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 30.1538
+VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 30.1538
+VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 30.1538
+VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 29.7925
+VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 29.7925
+VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 29.7925
+VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 29.7925
+VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.mjpeg.mp4 with PSNR-original = 30.6752
+VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.mjpeg.mp4 with PSNR-original = 30.6752
+VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.mjpeg.mp4 with PSNR-original = 30.6752
+VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.mjpeg.mp4 with PSNR-original = 30.6752
+VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.mjpeg.mp4 with PSNR-original = 21.9118
+VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.mjpeg.mp4 with PSNR-original = 21.9118
+VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.mjpeg.mp4 with PSNR-original = 21.9118
+VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.mjpeg.mp4 with PSNR-original = 21.9118
+VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 30.796
+VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 30.796
+VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 30.796
+VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 30.796
+VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 30.5001
+VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 30.5001
+VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 30.5001
+VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 30.5001
+VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 30.9205
+VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 30.9205
+VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 30.9205
+VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 30.9205
+VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 30.5686
+VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 30.5686
+VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 30.5686
+VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 30.5686
+VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libx265.mp4 with PSNR-original = 30.7278
+VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libx265.mp4 with PSNR-original = 30.7278
+VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libx265.mp4 with PSNR-original = 30.7278
+VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libx265.mp4 with PSNR-original = 30.7278
+VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.libx265.mp4 with PSNR-original = 30.5249
+VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.libx265.mp4 with PSNR-original = 30.5249
+VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.libx265.mp4 with PSNR-original = 30.5249
+VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.libx265.mp4 with PSNR-original = 30.5249
+VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libvpx-vp9.mp4 with PSNR-original = 30.8839
+VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libvpx-vp9.mp4 with PSNR-original = 30.8839
+VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libvpx-vp9.mp4 with PSNR-original = 30.8839
+VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libvpx-vp9.mp4 with PSNR-original = 30.8839
+FFMPEG VideoWriter on codec MPEG: acceleration = NONE, bitrate = 272782, PSNR = 34.8978
+FFMPEG VideoWriter on codec MPEG: acceleration = NONE, bitrate = 272782, PSNR = 34.8978
+FFMPEG VideoWriter on codec MPEG: acceleration = NONE, bitrate = 272782, PSNR = 34.8978
+FFMPEG VideoWriter on codec MPEG: acceleration = NONE, bitrate = 272782, PSNR = 34.8978
+FFMPEG VideoWriter on codec H264: acceleration = NONE, bitrate = 32023.3, PSNR = 34.3884
+FFMPEG VideoWriter on codec H264: acceleration = NONE, bitrate = 32023.3, PSNR = 34.3884
+FFMPEG VideoWriter on codec H264: acceleration = NONE, bitrate = 32023.3, PSNR = 34.3884
+FFMPEG VideoWriter on codec H264: acceleration = NONE, bitrate = 32023.3, PSNR = 34.3884
+FFMPEG VideoWriter on codec HEVC: acceleration = NONE, bitrate = 170773, PSNR = 35.2033
+FFMPEG VideoWriter on codec HEVC: acceleration = NONE, bitrate = 170773, PSNR = 35.2033
+FFMPEG VideoWriter on codec HEVC: acceleration = NONE, bitrate = 170773, PSNR = 35.2033
+FFMPEG VideoWriter on codec HEVC: acceleration = NONE, bitrate = 170773, PSNR = 35.2033
+FFMPEG VideoWriter on codec MJPG: acceleration = NONE, bitrate = 307533, PSNR = 36.6545
+FFMPEG VideoWriter on codec MJPG: acceleration = NONE, bitrate = 307533, PSNR = 36.6545
+FFMPEG VideoWriter on codec MJPG: acceleration = NONE, bitrate = 307533, PSNR = 36.6545
+FFMPEG VideoWriter on codec MJPG: acceleration = NONE, bitrate = 307533, PSNR = 36.6545
+FFMPEG VideoWriter on codec XVID: acceleration = NONE, bitrate = 222120, PSNR = 34.7491
+FFMPEG VideoWriter on codec XVID: acceleration = NONE, bitrate = 222120, PSNR = 34.7491
+FFMPEG VideoWriter on codec XVID: acceleration = NONE, bitrate = 222120, PSNR = 34.7491
+FFMPEG VideoWriter on codec XVID: acceleration = NONE, bitrate = 222120, PSNR = 34.7491
+GSTREAMER VideoWriter on codec MPEG: acceleration = NONE, bitrate = 139363, PSNR = 33.3255
+GSTREAMER VideoWriter on codec MPEG: acceleration = NONE, bitrate = 139363, PSNR = 33.3255
+GSTREAMER VideoWriter on codec MPEG: acceleration = NONE, bitrate = 139363, PSNR = 33.3255
+GSTREAMER VideoWriter on codec MPEG: acceleration = NONE, bitrate = 139363, PSNR = 33.3255
+GSTREAMER VideoWriter on codec H264: acceleration = NONE, bitrate = 89250, PSNR = 50.5462
+GSTREAMER VideoWriter on codec H264: acceleration = NONE, bitrate = 88493.3, PSNR = 50.5462
+GSTREAMER VideoWriter on codec H264: acceleration = NONE, bitrate = 88818.3, PSNR = 50.6259
+GSTREAMER VideoWriter on codec H264: acceleration = NONE, bitrate = 89165, PSNR = 50.6259
+================================================ ACCELERATION HW
+================================================ FAILED
+================================================ PASSED TESTS
+[0;32m[  PASSED  ] [m294 tests.
