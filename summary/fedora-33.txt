@@ -95,19 +95,19 @@ GSTREAMER VideoWriter on codec MPEG: acceleration = NONE, bitrate = 279113, PSNR
 GSTREAMER VideoWriter on codec MPEG: acceleration = NONE, bitrate = 279113, PSNR = 34.896
 ================================================ ACCELERATION HW
 ================================================ FAILED
-[0;31m[  FAILED  ] [mvideoio/videoio_synthetic.write_read_position/21, where GetParam() = (976x768, FOURCC(MPEG), .avi, GSTREAMER, 30dB) (907 ms)
-[0;31m[  FAILED  ] [mvideoio/videoio_synthetic.write_read_position/24, where GetParam() = (976x768, FOURCC(MPEG), .mkv, GSTREAMER, 30dB) (912 ms)
-[0;31m[  FAILED  ] [mvideoio/videowriter_acceleration.write/24, where GetParam() = (FOURCC(H264), .mkv, GSTREAMER, 29dB, NONE, false) (47 ms)
-[0;31m[  FAILED  ] [mvideoio/videowriter_acceleration.write/25, where GetParam() = (FOURCC(H264), .mkv, GSTREAMER, 29dB, ANY, false) (46 ms)
-[0;31m[  FAILED  ] [mvideoio/videowriter_acceleration.write/26, where GetParam() = (FOURCC(H264), .mkv, GSTREAMER, 29dB, MFX, false) (46 ms)
-[0;31m[  FAILED  ] [mvideoio/videowriter_acceleration.write/27, where GetParam() = (FOURCC(H264), .mkv, GSTREAMER, 29dB, VAAPI, false) (46 ms)
-[0;31m[  FAILED  ] [m6 tests, listed below:
-[0;31m[  FAILED  ] [mvideoio/videoio_synthetic.write_read_position/21, where GetParam() = (976x768, FOURCC(MPEG), .avi, GSTREAMER, 30dB)
-[0;31m[  FAILED  ] [mvideoio/videoio_synthetic.write_read_position/24, where GetParam() = (976x768, FOURCC(MPEG), .mkv, GSTREAMER, 30dB)
-[0;31m[  FAILED  ] [mvideoio/videowriter_acceleration.write/24, where GetParam() = (FOURCC(H264), .mkv, GSTREAMER, 29dB, NONE, false)
-[0;31m[  FAILED  ] [mvideoio/videowriter_acceleration.write/25, where GetParam() = (FOURCC(H264), .mkv, GSTREAMER, 29dB, ANY, false)
-[0;31m[  FAILED  ] [mvideoio/videowriter_acceleration.write/26, where GetParam() = (FOURCC(H264), .mkv, GSTREAMER, 29dB, MFX, false)
-[0;31m[  FAILED  ] [mvideoio/videowriter_acceleration.write/27, where GetParam() = (FOURCC(H264), .mkv, GSTREAMER, 29dB, VAAPI, false)
+[  FAILED  ] videoio/videoio_synthetic.write_read_position/21, where GetParam() = (976x768, FOURCC(MPEG), .avi, GSTREAMER, 30dB) (962 ms)
+[  FAILED  ] videoio/videoio_synthetic.write_read_position/24, where GetParam() = (976x768, FOURCC(MPEG), .mkv, GSTREAMER, 30dB) (960 ms)
+[  FAILED  ] videoio/videowriter_acceleration.write/24, where GetParam() = (FOURCC(H264), .mkv, GSTREAMER, 29dB, NONE, false) (83 ms)
+[  FAILED  ] videoio/videowriter_acceleration.write/25, where GetParam() = (FOURCC(H264), .mkv, GSTREAMER, 29dB, ANY, false) (149 ms)
+[  FAILED  ] videoio/videowriter_acceleration.write/26, where GetParam() = (FOURCC(H264), .mkv, GSTREAMER, 29dB, MFX, false) (66 ms)
+[  FAILED  ] videoio/videowriter_acceleration.write/27, where GetParam() = (FOURCC(H264), .mkv, GSTREAMER, 29dB, VAAPI, false) (54 ms)
+[  FAILED  ] 6 tests, listed below:
+[  FAILED  ] videoio/videoio_synthetic.write_read_position/21, where GetParam() = (976x768, FOURCC(MPEG), .avi, GSTREAMER, 30dB)
+[  FAILED  ] videoio/videoio_synthetic.write_read_position/24, where GetParam() = (976x768, FOURCC(MPEG), .mkv, GSTREAMER, 30dB)
+[  FAILED  ] videoio/videowriter_acceleration.write/24, where GetParam() = (FOURCC(H264), .mkv, GSTREAMER, 29dB, NONE, false)
+[  FAILED  ] videoio/videowriter_acceleration.write/25, where GetParam() = (FOURCC(H264), .mkv, GSTREAMER, 29dB, ANY, false)
+[  FAILED  ] videoio/videowriter_acceleration.write/26, where GetParam() = (FOURCC(H264), .mkv, GSTREAMER, 29dB, MFX, false)
+[  FAILED  ] videoio/videowriter_acceleration.write/27, where GetParam() = (FOURCC(H264), .mkv, GSTREAMER, 29dB, VAAPI, false)
  6 FAILED TESTS
 ================================================ PASSED TESTS
-[0;32m[  PASSED  ] [m288 tests.
+[  PASSED  ] 288 tests.

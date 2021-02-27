@@ -78,10 +78,10 @@ GSTREAMER VideoWriter on codec MPEG: acceleration = NONE, bitrate = 143122, PSNR
 GSTREAMER VideoWriter on codec MPEG: acceleration = NONE, bitrate = 143122, PSNR = 34.9951
 GSTREAMER VideoWriter on codec MPEG: acceleration = NONE, bitrate = 143122, PSNR = 34.9951
 GSTREAMER VideoWriter on codec MPEG: acceleration = NONE, bitrate = 143122, PSNR = 34.9951
-GSTREAMER VideoWriter on codec H264: acceleration = NONE, bitrate = 88533.3, PSNR = 50.6263
+GSTREAMER VideoWriter on codec H264: acceleration = NONE, bitrate = 88588.3, PSNR = 50.6263
 GSTREAMER VideoWriter on codec H264: acceleration = NONE, bitrate = 89068.3, PSNR = 50.6263
+GSTREAMER VideoWriter on codec H264: acceleration = NONE, bitrate = 88548.3, PSNR = 50.6263
 GSTREAMER VideoWriter on codec H264: acceleration = NONE, bitrate = 89196.7, PSNR = 50.6263
-GSTREAMER VideoWriter on codec H264: acceleration = NONE, bitrate = 88430, PSNR = 50.6263
 ================================================ ACCELERATION HW
 [0mVideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.libvpx-vp9.mp4 with PSNR-original = 30.8839
 [0mVideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 30.1538
@@ -99,17 +99,17 @@ VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.
 VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.mjpeg.mp4 with PSNR-original = 31.8029
 VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 31.8763
 ================================================ FAILED
-[0;31m[  FAILED  ] [mvideoio/videocapture_acceleration.read/20, where GetParam() = (sample_322x242_15frames.yuv420p.mpeg2video.mp4, GSTREAMER, NONE, false) (51 ms)
-[0;31m[  FAILED  ] [mvideoio/videocapture_acceleration.read/21, where GetParam() = (sample_322x242_15frames.yuv420p.mpeg2video.mp4, GSTREAMER, ANY, false) (50 ms)
-[0;31m[  FAILED  ] [mvideoio/videocapture_acceleration.read/22, where GetParam() = (sample_322x242_15frames.yuv420p.mpeg2video.mp4, GSTREAMER, MFX, false) (51 ms)
-[0;31m[  FAILED  ] [mvideoio/videocapture_acceleration.read/23, where GetParam() = (sample_322x242_15frames.yuv420p.mpeg2video.mp4, GSTREAMER, VAAPI, false) (51 ms)
-[0;31m[  FAILED  ] [mvideoio/videocapture_acceleration.read/42, where GetParam() = (sample_322x242_15frames.yuv420p.libvpx-vp9.mp4, FFMPEG, MFX, false) (5 ms)
-[0;31m[  FAILED  ] [m5 tests, listed below:
-[0;31m[  FAILED  ] [mvideoio/videocapture_acceleration.read/20, where GetParam() = (sample_322x242_15frames.yuv420p.mpeg2video.mp4, GSTREAMER, NONE, false)
-[0;31m[  FAILED  ] [mvideoio/videocapture_acceleration.read/21, where GetParam() = (sample_322x242_15frames.yuv420p.mpeg2video.mp4, GSTREAMER, ANY, false)
-[0;31m[  FAILED  ] [mvideoio/videocapture_acceleration.read/22, where GetParam() = (sample_322x242_15frames.yuv420p.mpeg2video.mp4, GSTREAMER, MFX, false)
-[0;31m[  FAILED  ] [mvideoio/videocapture_acceleration.read/23, where GetParam() = (sample_322x242_15frames.yuv420p.mpeg2video.mp4, GSTREAMER, VAAPI, false)
-[0;31m[  FAILED  ] [mvideoio/videocapture_acceleration.read/42, where GetParam() = (sample_322x242_15frames.yuv420p.libvpx-vp9.mp4, FFMPEG, MFX, false)
+[  FAILED  ] videoio/videocapture_acceleration.read/20, where GetParam() = (sample_322x242_15frames.yuv420p.mpeg2video.mp4, GSTREAMER, NONE, false) (51 ms)
+[  FAILED  ] videoio/videocapture_acceleration.read/21, where GetParam() = (sample_322x242_15frames.yuv420p.mpeg2video.mp4, GSTREAMER, ANY, false) (51 ms)
+[  FAILED  ] videoio/videocapture_acceleration.read/22, where GetParam() = (sample_322x242_15frames.yuv420p.mpeg2video.mp4, GSTREAMER, MFX, false) (51 ms)
+[  FAILED  ] videoio/videocapture_acceleration.read/23, where GetParam() = (sample_322x242_15frames.yuv420p.mpeg2video.mp4, GSTREAMER, VAAPI, false) (53 ms)
+[  FAILED  ] videoio/videocapture_acceleration.read/42, where GetParam() = (sample_322x242_15frames.yuv420p.libvpx-vp9.mp4, FFMPEG, MFX, false) (4 ms)
+[  FAILED  ] 5 tests, listed below:
+[  FAILED  ] videoio/videocapture_acceleration.read/20, where GetParam() = (sample_322x242_15frames.yuv420p.mpeg2video.mp4, GSTREAMER, NONE, false)
+[  FAILED  ] videoio/videocapture_acceleration.read/21, where GetParam() = (sample_322x242_15frames.yuv420p.mpeg2video.mp4, GSTREAMER, ANY, false)
+[  FAILED  ] videoio/videocapture_acceleration.read/22, where GetParam() = (sample_322x242_15frames.yuv420p.mpeg2video.mp4, GSTREAMER, MFX, false)
+[  FAILED  ] videoio/videocapture_acceleration.read/23, where GetParam() = (sample_322x242_15frames.yuv420p.mpeg2video.mp4, GSTREAMER, VAAPI, false)
+[  FAILED  ] videoio/videocapture_acceleration.read/42, where GetParam() = (sample_322x242_15frames.yuv420p.libvpx-vp9.mp4, FFMPEG, MFX, false)
  5 FAILED TESTS
 ================================================ PASSED TESTS
-[0;32m[  PASSED  ] [m289 tests.
+[  PASSED  ] 289 tests.

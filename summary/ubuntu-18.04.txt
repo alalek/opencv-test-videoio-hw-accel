@@ -1,34 +1,32 @@
-ffmpeg/bionic-updates,bionic-security,now 7:3.4.8-0ubuntu0.2 amd64 [installed]
-gir1.2-gstreamer-1.0/bionic-updates,now 1.14.5-0ubuntu1~18.04.1 amd64 [installed,automatic]
-gstreamer1.0-gl/bionic-updates,now 1.14.5-0ubuntu1~18.04.1 amd64 [installed,automatic]
-gstreamer1.0-libav/bionic-updates,now 1.14.5-0ubuntu1~18.04.1 amd64 [installed]
-gstreamer1.0-plugins-bad/bionic-updates,now 1.14.5-0ubuntu1~18.04.1 amd64 [installed]
-gstreamer1.0-plugins-base/bionic-updates,now 1.14.5-0ubuntu1~18.04.1 amd64 [installed]
-gstreamer1.0-plugins-good/bionic-updates,now 1.14.5-0ubuntu1~18.04.1 amd64 [installed]
-gstreamer1.0-plugins-ugly/bionic-updates,now 1.14.5-0ubuntu1~18.04.1 amd64 [installed]
-gstreamer1.0-tools/bionic-updates,now 1.14.5-0ubuntu1~18.04.1 amd64 [installed]
-gstreamer1.0-vaapi/bionic-updates,now 1.14.5-0ubuntu1~ubuntu18.04.1 amd64 [installed]
-gstreamer1.0-x/bionic-updates,now 1.14.5-0ubuntu1~18.04.1 amd64 [installed,automatic]
-i965-va-driver/bionic,now 2.1.0-0ubuntu1 amd64 [installed,automatic]
-libgstreamer-gl1.0-0/bionic-updates,now 1.14.5-0ubuntu1~18.04.1 amd64 [installed,automatic]
-libgstreamer-opencv1.0-0/bionic-updates,now 1.14.5-0ubuntu1~18.04.1 amd64 [installed,automatic]
-libgstreamer-plugins-bad1.0-0/bionic-updates,now 1.14.5-0ubuntu1~18.04.1 amd64 [installed,automatic]
-libgstreamer-plugins-bad1.0-dev/bionic-updates,now 1.14.5-0ubuntu1~18.04.1 amd64 [installed]
-libgstreamer-plugins-base1.0-0/bionic-updates,now 1.14.5-0ubuntu1~18.04.1 amd64 [installed,automatic]
-libgstreamer-plugins-base1.0-dev/bionic-updates,now 1.14.5-0ubuntu1~18.04.1 amd64 [installed]
-libgstreamer-plugins-good1.0-0/bionic-updates,now 1.14.5-0ubuntu1~18.04.1 amd64 [installed,automatic]
-libgstreamer-plugins-good1.0-dev/bionic-updates,now 1.14.5-0ubuntu1~18.04.1 amd64 [installed,automatic]
-libgstreamer1.0-0/bionic-updates,now 1.14.5-0ubuntu1~18.04.1 amd64 [installed]
-libgstreamer1.0-dev/bionic-updates,now 1.14.5-0ubuntu1~18.04.1 amd64 [installed]
-libva-dev/bionic,now 2.1.0-3 amd64 [installed]
-libva-drm2/bionic,now 2.1.0-3 amd64 [installed,automatic]
-libva-glx2/bionic,now 2.1.0-3 amd64 [installed,automatic]
-libva-wayland2/bionic,now 2.1.0-3 amd64 [installed,automatic]
-libva-x11-2/bionic,now 2.1.0-3 amd64 [installed,automatic]
-libva2/bionic,now 2.1.0-3 amd64 [installed,automatic]
-mesa-va-drivers/bionic-updates,now 20.0.8-0ubuntu1~18.04.1 amd64 [installed,automatic]
-ocl-icd-libopencl1/bionic,now 2.2.11-1ubuntu1 amd64 [installed,automatic]
-va-driver-all/bionic,now 2.1.0-3 amd64 [installed,automatic]
+ffmpeg/now 7:3.4.8-0ubuntu0.2 amd64 [installed,local]
+gir1.2-gstreamer-1.0/now 1.14.5-0ubuntu1~18.04.1 amd64 [installed,local]
+gstreamer1.0-libav/now 1.14.5-0ubuntu1~18.04.1 amd64 [installed,local]
+gstreamer1.0-plugins-bad/now 1.14.5-0ubuntu1~18.04.1 amd64 [installed,local]
+gstreamer1.0-plugins-base/now 1.14.5-0ubuntu1~18.04.1 amd64 [installed,local]
+gstreamer1.0-plugins-good/now 1.14.5-0ubuntu1~18.04.1 amd64 [installed,local]
+gstreamer1.0-plugins-ugly/now 1.14.5-0ubuntu1~18.04.1 amd64 [installed,local]
+gstreamer1.0-tools/now 1.14.5-0ubuntu1~18.04.1 amd64 [installed,local]
+gstreamer1.0-vaapi/now 1.14.5-0ubuntu1~ubuntu18.04.1 amd64 [installed,local]
+i965-va-driver/now 2.1.0-0ubuntu1 amd64 [installed,local]
+libgstreamer-gl1.0-0/now 1.14.5-0ubuntu1~18.04.1 amd64 [installed,local]
+libgstreamer-opencv1.0-0/now 1.14.5-0ubuntu1~18.04.1 amd64 [installed,local]
+libgstreamer-plugins-bad1.0-0/now 1.14.5-0ubuntu1~18.04.1 amd64 [installed,local]
+libgstreamer-plugins-bad1.0-dev/now 1.14.5-0ubuntu1~18.04.1 amd64 [installed,local]
+libgstreamer-plugins-base1.0-0/now 1.14.5-0ubuntu1~18.04.1 amd64 [installed,local]
+libgstreamer-plugins-base1.0-dev/now 1.14.5-0ubuntu1~18.04.1 amd64 [installed,local]
+libgstreamer-plugins-good1.0-0/now 1.14.5-0ubuntu1~18.04.1 amd64 [installed,local]
+libgstreamer-plugins-good1.0-dev/now 1.14.5-0ubuntu1~18.04.1 amd64 [installed,local]
+libgstreamer1.0-0/now 1.14.5-0ubuntu1~18.04.1 amd64 [installed,local]
+libgstreamer1.0-dev/now 1.14.5-0ubuntu1~18.04.1 amd64 [installed,local]
+libva-dev/now 2.1.0-3 amd64 [installed,local]
+libva-drm2/now 2.1.0-3 amd64 [installed,local]
+libva-glx2/now 2.1.0-3 amd64 [installed,local]
+libva-wayland2/now 2.1.0-3 amd64 [installed,local]
+libva-x11-2/now 2.1.0-3 amd64 [installed,local]
+libva2/now 2.1.0-3 amd64 [installed,local]
+mesa-va-drivers/now 20.0.8-0ubuntu1~18.04.1 amd64 [installed,local]
+ocl-icd-libopencl1/now 2.2.11-1ubuntu1 amd64 [installed,local]
+va-driver-all/now 2.1.0-3 amd64 [installed,local]
 ================================================ ACCELERATION ALL
 VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 30.1538
 VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 30.1538
@@ -50,18 +48,18 @@ VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.
 VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 30.796
 VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 30.796
 VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 30.796
-VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 26.8727
 VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 30.7723
-VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 25.2523
-VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 24.7565
+VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 30.7723
+VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 24.3895
+VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 25.2546
 VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 30.9205
 VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 30.9205
 VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 30.9205
 VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 30.9205
+VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 29.368
 VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 24.4274
 VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 24.4274
-VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 24.4274
-VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 25.0383
+VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 25.0772
 VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libx265.mp4 with PSNR-original = 30.7278
 VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libx265.mp4 with PSNR-original = 30.7278
 VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libx265.mp4 with PSNR-original = 30.7278
@@ -102,17 +100,17 @@ GSTREAMER VideoWriter on codec MPEG: acceleration = NONE, bitrate = 139368, PSNR
 GSTREAMER VideoWriter on codec MPEG: acceleration = NONE, bitrate = 139368, PSNR = 33.3255
 GSTREAMER VideoWriter on codec MPEG: acceleration = NONE, bitrate = 139368, PSNR = 33.3255
 GSTREAMER VideoWriter on codec MPEG: acceleration = NONE, bitrate = 139368, PSNR = 33.3255
+GSTREAMER VideoWriter on codec H264: acceleration = NONE, bitrate = 88768.3, PSNR = 50.6925
 GSTREAMER VideoWriter on codec H264: acceleration = NONE, bitrate = 88280, PSNR = 50.6925
-GSTREAMER VideoWriter on codec H264: acceleration = NONE, bitrate = 88280, PSNR = 50.6925
-GSTREAMER VideoWriter on codec H264: acceleration = NONE, bitrate = 88280, PSNR = 50.6925
-GSTREAMER VideoWriter on codec H264: acceleration = NONE, bitrate = 88288.3, PSNR = 50.6925
+GSTREAMER VideoWriter on codec H264: acceleration = NONE, bitrate = 89013.3, PSNR = 50.6925
+GSTREAMER VideoWriter on codec H264: acceleration = NONE, bitrate = 88963.3, PSNR = 50.6925
 ================================================ ACCELERATION HW
 VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 24.4274
-VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 25.0383
-VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 24.7565
-VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 25.2523
-VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 26.8727
+VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 25.0772
+VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 29.368
+VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 24.3895
+VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 25.2546
 VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 30.7723
 ================================================ FAILED
 ================================================ PASSED TESTS
-[0;32m[  PASSED  ] [m294 tests.
+[  PASSED  ] 294 tests.

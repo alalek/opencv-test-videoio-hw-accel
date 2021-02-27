@@ -89,11 +89,11 @@ GSTREAMER VideoWriter on codec MPEG: acceleration = NONE, bitrate = 139363, PSNR
 GSTREAMER VideoWriter on codec MPEG: acceleration = NONE, bitrate = 139363, PSNR = 33.3255
 GSTREAMER VideoWriter on codec MPEG: acceleration = NONE, bitrate = 139363, PSNR = 33.3255
 GSTREAMER VideoWriter on codec MPEG: acceleration = NONE, bitrate = 139363, PSNR = 33.3255
-GSTREAMER VideoWriter on codec H264: acceleration = NONE, bitrate = 89250, PSNR = 50.5462
-GSTREAMER VideoWriter on codec H264: acceleration = NONE, bitrate = 88493.3, PSNR = 50.5462
-GSTREAMER VideoWriter on codec H264: acceleration = NONE, bitrate = 88818.3, PSNR = 50.6259
-GSTREAMER VideoWriter on codec H264: acceleration = NONE, bitrate = 89165, PSNR = 50.6259
+GSTREAMER VideoWriter on codec H264: acceleration = NONE, bitrate = 89228.3, PSNR = 50.6259
+GSTREAMER VideoWriter on codec H264: acceleration = NONE, bitrate = 88610, PSNR = 50.6259
+GSTREAMER VideoWriter on codec H264: acceleration = NONE, bitrate = 88845, PSNR = 50.6259
+GSTREAMER VideoWriter on codec H264: acceleration = NONE, bitrate = 88845, PSNR = 50.6259
 ================================================ ACCELERATION HW
 ================================================ FAILED
 ================================================ PASSED TESTS
-[0;32m[  PASSED  ] [m294 tests.
+[  PASSED  ] 294 tests.

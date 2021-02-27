@@ -62,6 +62,6 @@ VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.
 VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 31.8763
 VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 31.2869
 ================================================ FAILED
-[0;31m[  FAILED  ] [mvideoio/videoio_synthetic.write_read_position/21, where GetParam() = (976x768, FOURCC(MPEG), .avi, GSTREAMER, 30dB) (930 ms)
-[0;31m[  FAILED  ] [mvideoio/videoio_synthetic.write_read_position/24, where GetParam() = (976x768, FOURCC(MPEG), .mkv, GSTREAMER, 30dB) (926 ms)
+[  FAILED  ] videoio/videoio_synthetic.write_read_position/21, where GetParam() = (976x768, FOURCC(MPEG), .avi, GSTREAMER, 30dB) (924 ms)
+[  FAILED  ] videoio/videoio_synthetic.write_read_position/24, where GetParam() = (976x768, FOURCC(MPEG), .mkv, GSTREAMER, 30dB) (957 ms)
 ================================================ PASSED TESTS

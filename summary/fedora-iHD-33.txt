@@ -121,13 +121,13 @@ VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.
 VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.libx265.mp4 with PSNR-original = 31.2899
 VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 31.367
 ================================================ FAILED
-[0;31m[  FAILED  ] [mvideoio/videoio_synthetic.write_read_position/21, where GetParam() = (976x768, FOURCC(MPEG), .avi, GSTREAMER, 30dB) (918 ms)
-[0;31m[  FAILED  ] [mvideoio/videoio_synthetic.write_read_position/24, where GetParam() = (976x768, FOURCC(MPEG), .mkv, GSTREAMER, 30dB) (904 ms)
-[0;31m[  FAILED  ] [mvideoio/videocapture_acceleration.read/42, where GetParam() = (sample_322x242_15frames.yuv420p.libvpx-vp9.mp4, FFMPEG, MFX, false) (4 ms)
-[0;31m[  FAILED  ] [m3 tests, listed below:
-[0;31m[  FAILED  ] [mvideoio/videoio_synthetic.write_read_position/21, where GetParam() = (976x768, FOURCC(MPEG), .avi, GSTREAMER, 30dB)
-[0;31m[  FAILED  ] [mvideoio/videoio_synthetic.write_read_position/24, where GetParam() = (976x768, FOURCC(MPEG), .mkv, GSTREAMER, 30dB)
-[0;31m[  FAILED  ] [mvideoio/videocapture_acceleration.read/42, where GetParam() = (sample_322x242_15frames.yuv420p.libvpx-vp9.mp4, FFMPEG, MFX, false)
+[  FAILED  ] videoio/videoio_synthetic.write_read_position/21, where GetParam() = (976x768, FOURCC(MPEG), .avi, GSTREAMER, 30dB) (916 ms)
+[  FAILED  ] videoio/videoio_synthetic.write_read_position/24, where GetParam() = (976x768, FOURCC(MPEG), .mkv, GSTREAMER, 30dB) (913 ms)
+[  FAILED  ] videoio/videocapture_acceleration.read/42, where GetParam() = (sample_322x242_15frames.yuv420p.libvpx-vp9.mp4, FFMPEG, MFX, false) (3 ms)
+[  FAILED  ] 3 tests, listed below:
+[  FAILED  ] videoio/videoio_synthetic.write_read_position/21, where GetParam() = (976x768, FOURCC(MPEG), .avi, GSTREAMER, 30dB)
+[  FAILED  ] videoio/videoio_synthetic.write_read_position/24, where GetParam() = (976x768, FOURCC(MPEG), .mkv, GSTREAMER, 30dB)
+[  FAILED  ] videoio/videocapture_acceleration.read/42, where GetParam() = (sample_322x242_15frames.yuv420p.libvpx-vp9.mp4, FFMPEG, MFX, false)
  3 FAILED TESTS
 ================================================ PASSED TESTS
-[0;32m[  PASSED  ] [m291 tests.
+[  PASSED  ] 291 tests.
