@@ -1,89 +1,67 @@
-ffmpeg/hirsute,now 7:4.3.1-8ubuntu1 amd64 [installed]
-i965-va-driver/hirsute,now 2.4.1+dfsg1-1 amd64 [installed,automatic]
-intel-media-va-driver-non-free/hirsute,now 21.1.1+ds1-1 amd64 [installed]
-intel-opencl-icd/hirsute,now 20.44.18297-1 amd64 [installed]
-libgstreamer1.0-0/hirsute,now 1.18.3-1 amd64 [installed,automatic]
-libmfx-dev/hirsute,now 21.1.0-1 amd64 [installed]
-libmfx-tools/hirsute,now 21.1.0-1 amd64 [installed]
-libmfx1/hirsute,now 21.1.0-1 amd64 [installed,automatic]
-libopencl-clang11/hirsute,now 11.0.0-1 amd64 [installed,automatic]
-libva-dev/hirsute,now 2.10.0-1 amd64 [installed]
-libva-drm2/hirsute,now 2.10.0-1 amd64 [installed,automatic]
-libva-glx2/hirsute,now 2.10.0-1 amd64 [installed,automatic]
-libva-wayland2/hirsute,now 2.10.0-1 amd64 [installed,automatic]
-libva-x11-2/hirsute,now 2.10.0-1 amd64 [installed,automatic]
-libva2/hirsute,now 2.10.0-1 amd64 [installed,automatic]
-mesa-va-drivers/hirsute,now 20.3.4-1 amd64 [installed,automatic]
-ocl-icd-libopencl1/hirsute,now 2.2.14-2 amd64 [installed,automatic]
-va-driver-all/hirsute,now 2.10.0-1 amd64 [installed,automatic]
+ffmpeg/now 7:4.3.1-8ubuntu1 amd64 [installed,local]
+gir1.2-gstreamer-1.0/now 1.18.3-1 amd64 [installed,local]
+gstreamer1.0-libav/now 1.18.3-1 amd64 [installed,local]
+gstreamer1.0-plugins-bad/now 1.18.3-1ubuntu2 amd64 [installed,local]
+gstreamer1.0-plugins-base/now 1.18.3-1 amd64 [installed,local]
+gstreamer1.0-plugins-good/now 1.18.3-1ubuntu1 amd64 [installed,local]
+gstreamer1.0-plugins-ugly/now 1.18.3-1 amd64 [installed,local]
+gstreamer1.0-tools/now 1.18.3-1 amd64 [installed,local]
+gstreamer1.0-vaapi/now 1.18.3-1 amd64 [installed,local]
+i965-va-driver/now 2.4.1+dfsg1-1 amd64 [installed,local]
+intel-media-va-driver-non-free/now 21.1.1+ds1-1 amd64 [installed,local]
+intel-opencl-icd/now 20.44.18297-1 amd64 [installed,local]
+libgstreamer-gl1.0-0/now 1.18.3-1 amd64 [installed,local]
+libgstreamer-opencv1.0-0/now 1.18.3-1ubuntu2 amd64 [installed,local]
+libgstreamer-plugins-bad1.0-0/now 1.18.3-1ubuntu2 amd64 [installed,local]
+libgstreamer-plugins-bad1.0-dev/now 1.18.3-1ubuntu2 amd64 [installed,local]
+libgstreamer-plugins-base1.0-0/now 1.18.3-1 amd64 [installed,local]
+libgstreamer-plugins-base1.0-dev/now 1.18.3-1 amd64 [installed,local]
+libgstreamer-plugins-good1.0-0/now 1.18.3-1ubuntu1 amd64 [installed,local]
+libgstreamer-plugins-good1.0-dev/now 1.18.3-1ubuntu1 amd64 [installed,local]
+libgstreamer1.0-0/now 1.18.3-1 amd64 [installed,local]
+libgstreamer1.0-dev/now 1.18.3-1 amd64 [installed,local]
+libmfx-dev/now 21.1.0-1 amd64 [installed,local]
+libmfx-tools/now 21.1.0-1 amd64 [installed,local]
+libmfx1/now 21.1.0-1 amd64 [installed,local]
+libopencl-clang11/now 11.0.0-1 amd64 [installed,local]
+libva-dev/now 2.10.0-1 amd64 [installed,local]
+libva-drm2/now 2.10.0-1 amd64 [installed,local]
+libva-glx2/now 2.10.0-1 amd64 [installed,local]
+libva-wayland2/now 2.10.0-1 amd64 [installed,local]
+libva-x11-2/now 2.10.0-1 amd64 [installed,local]
+libva2/now 2.10.0-1 amd64 [installed,local]
+mesa-va-drivers/now 20.3.4-1 amd64 [installed,local]
+ocl-icd-libopencl1/now 2.2.14-2 amd64 [installed,local]
+va-driver-all/now 2.10.0-1 amd64 [installed,local]
 ================================================ ACCELERATION ALL
 VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 30.1538
-[0mVideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 30.1538
+VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 30.1538
 VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 30.1538
-[0mVideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 30.1538
+VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 30.1538
+VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 29.7925
+VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 29.7925
+VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 29.7925
+VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 29.7925
 VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.mjpeg.mp4 with PSNR-original = 30.6752
 VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.mjpeg.mp4 with PSNR-original = 31.8029
 VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.mjpeg.mp4 with PSNR-original = 30.6752
 VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.mjpeg.mp4 with PSNR-original = 31.8029
+VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.mjpeg.mp4 with PSNR-original = 21.9118
+VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.mjpeg.mp4 with PSNR-original = 21.9118
+VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.mjpeg.mp4 with PSNR-original = 21.9118
+VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.mjpeg.mp4 with PSNR-original = 21.9118
 VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 30.796
 VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 31.8763
 VideoCapture with acceleration = MFX    @ FFMPEG     on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 31.8777
 VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 31.8763
-VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 30.9205
-VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 32.0695
-VideoCapture with acceleration = MFX    @ FFMPEG     on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 32.0695
-VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 32.0695
-VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libx265.mp4 with PSNR-original = 30.7278
-VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.libx265.mp4 with PSNR-original = 31.7869
-VideoCapture with acceleration = MFX    @ FFMPEG     on sample_322x242_15frames.yuv420p.libx265.mp4 with PSNR-original = 31.7869
-VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.libx265.mp4 with PSNR-original = 31.7869
-VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libvpx-vp9.mp4 with PSNR-original = 30.8839
-[0mVideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.libvpx-vp9.mp4 with PSNR-original = 30.8839
-[0mVideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.libvpx-vp9.mp4 with PSNR-original = 30.8839
-VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libaom-av1.mp4 with PSNR-original = 30.8718
-VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libaom-av1.mp4 with PSNR-original = 30.8718
-VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libaom-av1.mp4 with PSNR-original = 30.8718
-VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libaom-av1.mp4 with PSNR-original = 30.8718
-FFMPEG VideoWriter on codec MPEG: acceleration = NONE, bitrate = 272782, PSNR = 34.8978
-FFMPEG VideoWriter on codec MPEG: acceleration = MFX, bitrate = 162660, PSNR = 35.7893
-FFMPEG VideoWriter on codec MPEG: acceleration = MFX, bitrate = 162660, PSNR = 35.7893
-FFMPEG VideoWriter on codec MPEG: acceleration = VAAPI, bitrate = 220120, PSNR = 35.7893
-FFMPEG VideoWriter on codec H264: acceleration = NONE, bitrate = 32016.7, PSNR = 34.4139
-FFMPEG VideoWriter on codec H264: acceleration = MFX, bitrate = 99895, PSNR = 37.1323
-FFMPEG VideoWriter on codec H264: acceleration = MFX, bitrate = 99895, PSNR = 37.1323
-FFMPEG VideoWriter on codec H264: acceleration = VAAPI, bitrate = 298405, PSNR = 37.1901
-FFMPEG VideoWriter on codec HEVC: acceleration = NONE, bitrate = 170882, PSNR = 35.2004
-FFMPEG VideoWriter on codec HEVC: acceleration = MFX, bitrate = 115472, PSNR = 37.1341
-FFMPEG VideoWriter on codec HEVC: acceleration = MFX, bitrate = 115472, PSNR = 37.1341
-FFMPEG VideoWriter on codec HEVC: acceleration = VAAPI, bitrate = 167310, PSNR = 37.1808
-FFMPEG VideoWriter on codec MJPG: acceleration = NONE, bitrate = 307503, PSNR = 36.6545
-FFMPEG VideoWriter on codec MJPG: acceleration = NONE, bitrate = 307503, PSNR = 36.6545
-FFMPEG VideoWriter on codec MJPG: acceleration = NONE, bitrate = 307503, PSNR = 36.6545
-FFMPEG VideoWriter on codec MJPG: acceleration = NONE, bitrate = 307503, PSNR = 36.6545
-FFMPEG VideoWriter on codec XVID: acceleration = NONE, bitrate = 222117, PSNR = 34.7491
-FFMPEG VideoWriter on codec XVID: acceleration = NONE, bitrate = 222117, PSNR = 34.7491
-FFMPEG VideoWriter on codec XVID: acceleration = NONE, bitrate = 222117, PSNR = 34.7491
-FFMPEG VideoWriter on codec XVID: acceleration = NONE, bitrate = 222117, PSNR = 34.7491
+VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 31.2869
 ================================================ ACCELERATION HW
-[0mVideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.libvpx-vp9.mp4 with PSNR-original = 30.8839
-[0mVideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 30.1538
-FFMPEG VideoWriter on codec H264: acceleration = MFX, bitrate = 99895, PSNR = 37.1323
-FFMPEG VideoWriter on codec H264: acceleration = VAAPI, bitrate = 298405, PSNR = 37.1901
-FFMPEG VideoWriter on codec HEVC: acceleration = MFX, bitrate = 115472, PSNR = 37.1341
-FFMPEG VideoWriter on codec HEVC: acceleration = VAAPI, bitrate = 167310, PSNR = 37.1808
-FFMPEG VideoWriter on codec MPEG: acceleration = MFX, bitrate = 162660, PSNR = 35.7893
-FFMPEG VideoWriter on codec MPEG: acceleration = VAAPI, bitrate = 220120, PSNR = 35.7893
-VideoCapture with acceleration = MFX    @ FFMPEG     on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 32.0695
-VideoCapture with acceleration = MFX    @ FFMPEG     on sample_322x242_15frames.yuv420p.libx265.mp4 with PSNR-original = 31.7869
 VideoCapture with acceleration = MFX    @ FFMPEG     on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 31.8777
-VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 32.0695
-VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.libx265.mp4 with PSNR-original = 31.7869
+VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 30.1538
 VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.mjpeg.mp4 with PSNR-original = 31.8029
 VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 31.8763
+VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 31.2869
 ================================================ FAILED
-[0;31m[  FAILED  ] [mvideoio/videocapture_acceleration.read/42, where GetParam() = (sample_322x242_15frames.yuv420p.libvpx-vp9.mp4, FFMPEG, MFX, false) (3 ms)
-[0;31m[  FAILED  ] [m1 test, listed below:
-[0;31m[  FAILED  ] [mvideoio/videocapture_acceleration.read/42, where GetParam() = (sample_322x242_15frames.yuv420p.libvpx-vp9.mp4, FFMPEG, MFX, false)
- 1 FAILED TEST
+[0;31m[  FAILED  ] [mvideoio/videoio_synthetic.write_read_position/21, where GetParam() = (976x768, FOURCC(MPEG), .avi, GSTREAMER, 30dB) (930 ms)
+[0;31m[  FAILED  ] [mvideoio/videoio_synthetic.write_read_position/24, where GetParam() = (976x768, FOURCC(MPEG), .mkv, GSTREAMER, 30dB) (926 ms)
 ================================================ PASSED TESTS
-[0;32m[  PASSED  ] [m291 tests.

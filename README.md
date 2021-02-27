@@ -18,8 +18,8 @@ Support matrix on Linux if use media libraries from standard and non-standard ap
 | Ubuntu 20.04 | &#x2714; | [(default apt)](./docker/ubuntu.Dockerfile)| 20.1.1 | -      | 4.2.4  | 1.16.2    | VAAPI@FFMPEG(6) | - |
 | | &#x2714;              | [non-free](./docker/ubuntu-non-free.Dockerfile) | 20.1.1  | 20.1.0  | 4.2.4  | 1.16.2    | VAAPI@FFMPEG(6) | VAAPI@FFMPEG(3) |
 | | &#x2714;              | [+intel.com](./docker/ubuntu-intel.Dockerfile) | 21.1.0 | 21.1.0 | 4.2.4  | 1.16.2    | VAAPI@FFMPEG(6) | VAAPI@FFMPEG(3) |
-| Ubuntu 21.04 | &#x2714; | [(default apt)](./docker/ubuntu.Dockerfile) | 21.1.1 | 21.1.0 | 4.3.1  | 1.18.3 (no plugins) | VAAPI@FFMPEG(6) | - |
-| | &#x2716; (1)          | [non-free](./docker/ubuntu-non-free.Dockerfile) | 21.1.1 | 21.1.0 | 4.3.1  | 1.18.3 (no plugins) | VAAPI@FFMPEG(6) MFX@FFMPEG(3) | VAAPI@FFMPEG(3) MFX@FFMPEG(3) |
+| Ubuntu 21.04 | &#x2716; (0+0+2) | [(default apt)](./docker/ubuntu.Dockerfile) | 21.1.1 | 21.1.0 | 4.3.1  | 1.18.3 | FFMPEG:VAAPI(2)<br/>GST:VAAPI(1) | - |
+| | &#x2716; (0+0+2)          | [non-free](./docker/ubuntu-non-free.Dockerfile) | 21.1.1 | 21.1.0 | 4.3.1  | 1.18.3 | FFMPEG:VAAPI(3) MFX(1)<br/>GST:VAAPI(1) | - |
 | CentOS 7 | &#x2714;     | [(default yum)](./docker/centos.Dockerfile) | -     | -      | -      | -         | - | - |
 | | &#x2714; | [+rpmfusion.com](./docker/centos-rpmfusion.Dockerfile) | i965 | 1.21 | 3.4.8 | 1.10.4 | - | - |
 | | &#x2716; (5) | [+negativo17.com](./docker/centos-negativo17.Dockerfile) | 20.4.5 | 20.3.1 | 4.3.1 | 1.16.1 | VAAPI@FFMPEG(6) MFX@FFMPEG(3) | VAAPI@FFMPEG(3) MFX@FFMPEG(3) |
