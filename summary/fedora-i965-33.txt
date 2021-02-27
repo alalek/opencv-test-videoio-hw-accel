@@ -1,5 +1,5 @@
-ffmpeg-devel.x86_64                         4.3.1-16.fc33                     @rpmfusion-free-updates                              
-ffmpeg-libs.x86_64                          4.3.1-16.fc33                     @rpmfusion-free-updates                              
+ffmpeg-devel.x86_64                         4.3.2-1.fc33                      @rpmfusion-free-updates                              
+ffmpeg-libs.x86_64                          4.3.2-1.fc33                      @rpmfusion-free-updates                              
 gstreamer1.x86_64                           1.18.2-1.fc33                     @updates                                             
 gstreamer1-devel.x86_64                     1.18.2-1.fc33                     @updates                                             
 gstreamer1-libav.x86_64                     1.18.2-1.fc33                     @rpmfusion-free-updates                              
@@ -7,12 +7,13 @@ gstreamer1-plugins-bad-free.x86_64          1.18.2-1.fc33                     @u
 gstreamer1-plugins-base.x86_64              1.18.2-1.fc33                     @updates                                             
 gstreamer1-plugins-base-devel.x86_64        1.18.2-1.fc33                     @updates                                             
 gstreamer1-plugins-good.x86_64              1.18.2-1.fc33                     @updates                                             
+gstreamer1-plugins-ugly.x86_64              1.18.2-1.fc33                     @rpmfusion-free-updates                              
 gstreamer1-plugins-ugly-free.x86_64         1.18.2-1.fc33                     @updates                                             
 gstreamer1-vaapi.x86_64                     1.18.2-1.fc33                     @updates                                             
 intel-igc-core.x86_64                       1.0.6087-2.fc33                   @copr:copr.fedorainfracloud.org:jdanecki:intel-opencl
 intel-igc-opencl.x86_64                     1.0.6087-2.fc33                   @copr:copr.fedorainfracloud.org:jdanecki:intel-opencl
 intel-mediasdk.x86_64                       20.3.1-1.fc33                     @updates                                             
-intel-opencl.x86_64                         21.07.19042-1.fc33                @copr:copr.fedorainfracloud.org:jdanecki:intel-opencl
+intel-opencl.x86_64                         21.08.19096-1.fc33                @copr:copr.fedorainfracloud.org:jdanecki:intel-opencl
 libva.x86_64                                2.9.0-1.fc33                      @fedora                                              
 libva-intel-driver.x86_64                   2.4.1-3.fc33                      @rpmfusion-free                                      
 libva-utils.x86_64                          2.9.1-1.fc33                      @updates                                             
@@ -108,18 +109,18 @@ VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.
 VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.libx265.mp4 with PSNR-original = 31.2899
 VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 31.367
 ================================================ FAILED
-[  FAILED  ] videoio/videoio_synthetic.write_read_position/3, where GetParam() = (640x480, FOURCC(MJPG), .avi, FFMPEG, 30dB) (516 ms)
-[  FAILED  ] videoio/videoio_synthetic.write_read_position/6, where GetParam() = (640x480, FOURCC(MJPG), .mkv, FFMPEG, 30dB) (519 ms)
-[  FAILED  ] videoio/videoio_synthetic.write_read_position/17, where GetParam() = (976x768, FOURCC(MJPG), .avi, FFMPEG, 30dB) (893 ms)
-[  FAILED  ] videoio/videoio_synthetic.write_read_position/20, where GetParam() = (976x768, FOURCC(MJPG), .mkv, FFMPEG, 30dB) (900 ms)
-[  FAILED  ] videoio/videoio_synthetic.write_read_position/21, where GetParam() = (976x768, FOURCC(MPEG), .avi, GSTREAMER, 30dB) (910 ms)
-[  FAILED  ] videoio/videoio_synthetic.write_read_position/24, where GetParam() = (976x768, FOURCC(MPEG), .mkv, GSTREAMER, 30dB) (940 ms)
-[  FAILED  ] videoio/videocapture_acceleration.read/9, where GetParam() = (sample_322x242_15frames.yuv420p.mjpeg.mp4, FFMPEG, ANY, false) (53 ms)
-[  FAILED  ] videoio/videocapture_acceleration.read/11, where GetParam() = (sample_322x242_15frames.yuv420p.mjpeg.mp4, FFMPEG, VAAPI, false) (54 ms)
-[  FAILED  ] videoio/videocapture_acceleration.read/25, where GetParam() = (sample_322x242_15frames.yuv420p.libx264.mp4, FFMPEG, ANY, false) (4 ms)
-[  FAILED  ] videoio/videocapture_acceleration.read/27, where GetParam() = (sample_322x242_15frames.yuv420p.libx264.mp4, FFMPEG, VAAPI, false) (5 ms)
-[  FAILED  ] videoio/videocapture_acceleration.read/33, where GetParam() = (sample_322x242_15frames.yuv420p.libx265.mp4, FFMPEG, ANY, false) (4 ms)
-[  FAILED  ] videoio/videocapture_acceleration.read/35, where GetParam() = (sample_322x242_15frames.yuv420p.libx265.mp4, FFMPEG, VAAPI, false) (4 ms)
+[  FAILED  ] videoio/videoio_synthetic.write_read_position/3, where GetParam() = (640x480, FOURCC(MJPG), .avi, FFMPEG, 30dB) (523 ms)
+[  FAILED  ] videoio/videoio_synthetic.write_read_position/6, where GetParam() = (640x480, FOURCC(MJPG), .mkv, FFMPEG, 30dB) (535 ms)
+[  FAILED  ] videoio/videoio_synthetic.write_read_position/17, where GetParam() = (976x768, FOURCC(MJPG), .avi, FFMPEG, 30dB) (904 ms)
+[  FAILED  ] videoio/videoio_synthetic.write_read_position/20, where GetParam() = (976x768, FOURCC(MJPG), .mkv, FFMPEG, 30dB) (913 ms)
+[  FAILED  ] videoio/videoio_synthetic.write_read_position/21, where GetParam() = (976x768, FOURCC(MPEG), .avi, GSTREAMER, 30dB) (923 ms)
+[  FAILED  ] videoio/videoio_synthetic.write_read_position/24, where GetParam() = (976x768, FOURCC(MPEG), .mkv, GSTREAMER, 30dB) (917 ms)
+[  FAILED  ] videoio/videocapture_acceleration.read/9, where GetParam() = (sample_322x242_15frames.yuv420p.mjpeg.mp4, FFMPEG, ANY, false) (54 ms)
+[  FAILED  ] videoio/videocapture_acceleration.read/11, where GetParam() = (sample_322x242_15frames.yuv420p.mjpeg.mp4, FFMPEG, VAAPI, false) (57 ms)
+[  FAILED  ] videoio/videocapture_acceleration.read/25, where GetParam() = (sample_322x242_15frames.yuv420p.libx264.mp4, FFMPEG, ANY, false) (5 ms)
+[  FAILED  ] videoio/videocapture_acceleration.read/27, where GetParam() = (sample_322x242_15frames.yuv420p.libx264.mp4, FFMPEG, VAAPI, false) (4 ms)
+[  FAILED  ] videoio/videocapture_acceleration.read/33, where GetParam() = (sample_322x242_15frames.yuv420p.libx265.mp4, FFMPEG, ANY, false) (5 ms)
+[  FAILED  ] videoio/videocapture_acceleration.read/35, where GetParam() = (sample_322x242_15frames.yuv420p.libx265.mp4, FFMPEG, VAAPI, false) (5 ms)
 [  FAILED  ] 12 tests, listed below:
 [  FAILED  ] videoio/videoio_synthetic.write_read_position/3, where GetParam() = (640x480, FOURCC(MJPG), .avi, FFMPEG, 30dB)
 [  FAILED  ] videoio/videoio_synthetic.write_read_position/6, where GetParam() = (640x480, FOURCC(MJPG), .mkv, FFMPEG, 30dB)

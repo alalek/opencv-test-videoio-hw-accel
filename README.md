@@ -28,7 +28,7 @@ Support matrix on Linux if use media libraries from standard and non-standard ap
 | | &#x2714; | [+rpmfusion.com<br/>+intel.com](./docker/centos-rpmfusion-intel.Dockerfile) | 21.1.0 | 21.1.0 | 4.2.4  | 1.16.1 | VAAPI,MFX | VAAPI |
 | | &#x2716; (1+9+4+4) | [+negativo17.com](./docker/centos-negativo17.Dockerfile) | 20.4.5   | 20.3.1 | 4.3.1  | 1.16.1    | VAAPI,MFX | MFX,VAAPI |
 | | &#x2716; (1+9+4+4) | [+negativo17.com<br/>+intel.com](./docker/centos-negativo17-intel.Dockerfile) | 21.1.0 | 21.1.0 | 4.3.1  | 1.16.1    | VAAPI,MFX       | MFX,VAAPI      |
-| Fedora 33 | &#x2716; (0+4+2) | [(base)](./docker/fedora.Dockerfile) | - | - | 4.3.1 | 1.18.2 | &#x2714; - | &#x2716; (4?) - |
-| | &#x2716; (6+0+6) | [i965](./docker/fedora-i965.Dockerfile) | i965 2.4.1 | 20.3.1 | | | &#x2716; (6) VAAPI | &#x2714; (2) VAAPI@FFMPEG |
-| | &#x2716; (10+0+6) | [i965<br/>+libva-devel](./docker/fedora-i965-have_va.Dockerfile) | i965 2.4.1 | 20.3.1 | | | &#x2716; VAAPI,MFX | &#x2714; (2) VAAPI@FFMPEG |
-| | &#x2716; (1+0+2) | [iHD](./docker/fedora-iHD.Dockerfile) | iHD 20.3.0 | 20.3.1 | 4.3.1  | 1.16.1    | &#x2716; VAAPI,MFX | &#x2714; VAAPI,MFX |
+| Fedora 33 | &#x2716; (0+0+2) | [(base)](./docker/fedora.Dockerfile) | - | - | 4.3.1 | 1.18.2 | &#x2714; - | &#x2714; - |
+| | &#x2716; (6+0+6) | [i965](./docker/fedora-i965.Dockerfile) | i965 2.4.1 | 20.3.1 | | | &#x2716;<br/>FFMPEG:VAAPI(4)<br/>GST:VAAPI(3) | &#x2714;<br/>FFMPEG:VAAPI(2) |
+| | &#x2716; (10+0+6) | [i965<br/>+libva-devel](./docker/fedora-i965-have_va.Dockerfile) | i965 2.4.1 | 20.3.1 | | | &#x2716;<br/>FFMPEG:VAAPI(4)<br/>GST:VAAPI(3) | &#x2714;<br/>FFMPEG:VAAPI(2) |
+| | &#x2716; (1+0+2) | [iHD](./docker/fedora-iHD.Dockerfile) | iHD 20.3.0 | 20.3.1 | 4.3.1  | 1.16.1    | &#x2716;<br/>FFMPEG:VAAPI(6),MFX(3)<br/>GST:VAAPI(3) | &#x2714;<br/>FFMPEG:VAAPI(3),MFX(3) |

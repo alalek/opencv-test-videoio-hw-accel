@@ -1,5 +1,5 @@
-ffmpeg-devel.x86_64                         4.3.1-16.fc33                     @rpmfusion-free-updates
-ffmpeg-libs.x86_64                          4.3.1-16.fc33                     @rpmfusion-free-updates
+ffmpeg-devel.x86_64                         4.3.2-1.fc33                      @rpmfusion-free-updates
+ffmpeg-libs.x86_64                          4.3.2-1.fc33                      @rpmfusion-free-updates
 gstreamer1.x86_64                           1.18.2-1.fc33                     @updates               
 gstreamer1-devel.x86_64                     1.18.2-1.fc33                     @updates               
 gstreamer1-libav.x86_64                     1.18.2-1.fc33                     @rpmfusion-free-updates
@@ -7,6 +7,7 @@ gstreamer1-plugins-bad-free.x86_64          1.18.2-1.fc33                     @u
 gstreamer1-plugins-base.x86_64              1.18.2-1.fc33                     @updates               
 gstreamer1-plugins-base-devel.x86_64        1.18.2-1.fc33                     @updates               
 gstreamer1-plugins-good.x86_64              1.18.2-1.fc33                     @updates               
+gstreamer1-plugins-ugly.x86_64              1.18.2-1.fc33                     @rpmfusion-free-updates
 gstreamer1-plugins-ugly-free.x86_64         1.18.2-1.fc33                     @updates               
 gstreamer1-vaapi.x86_64                     1.18.2-1.fc33                     @updates               
 intel-mediasdk.x86_64                       20.3.1-1.fc33                     @updates               
@@ -93,21 +94,17 @@ GSTREAMER VideoWriter on codec MPEG: acceleration = NONE, bitrate = 279113, PSNR
 GSTREAMER VideoWriter on codec MPEG: acceleration = NONE, bitrate = 279113, PSNR = 34.896
 GSTREAMER VideoWriter on codec MPEG: acceleration = NONE, bitrate = 279113, PSNR = 34.896
 GSTREAMER VideoWriter on codec MPEG: acceleration = NONE, bitrate = 279113, PSNR = 34.896
+GSTREAMER VideoWriter on codec H264: acceleration = NONE, bitrate = 88615, PSNR = 50.6263
+GSTREAMER VideoWriter on codec H264: acceleration = NONE, bitrate = 88403.3, PSNR = 50.6263
+GSTREAMER VideoWriter on codec H264: acceleration = NONE, bitrate = 88620, PSNR = 50.6263
+GSTREAMER VideoWriter on codec H264: acceleration = NONE, bitrate = 88620, PSNR = 50.6263
 ================================================ ACCELERATION HW
 ================================================ FAILED
-[  FAILED  ] videoio/videoio_synthetic.write_read_position/21, where GetParam() = (976x768, FOURCC(MPEG), .avi, GSTREAMER, 30dB) (962 ms)
-[  FAILED  ] videoio/videoio_synthetic.write_read_position/24, where GetParam() = (976x768, FOURCC(MPEG), .mkv, GSTREAMER, 30dB) (960 ms)
-[  FAILED  ] videoio/videowriter_acceleration.write/24, where GetParam() = (FOURCC(H264), .mkv, GSTREAMER, 29dB, NONE, false) (83 ms)
-[  FAILED  ] videoio/videowriter_acceleration.write/25, where GetParam() = (FOURCC(H264), .mkv, GSTREAMER, 29dB, ANY, false) (149 ms)
-[  FAILED  ] videoio/videowriter_acceleration.write/26, where GetParam() = (FOURCC(H264), .mkv, GSTREAMER, 29dB, MFX, false) (66 ms)
-[  FAILED  ] videoio/videowriter_acceleration.write/27, where GetParam() = (FOURCC(H264), .mkv, GSTREAMER, 29dB, VAAPI, false) (54 ms)
-[  FAILED  ] 6 tests, listed below:
+[  FAILED  ] videoio/videoio_synthetic.write_read_position/21, where GetParam() = (976x768, FOURCC(MPEG), .avi, GSTREAMER, 30dB) (918 ms)
+[  FAILED  ] videoio/videoio_synthetic.write_read_position/24, where GetParam() = (976x768, FOURCC(MPEG), .mkv, GSTREAMER, 30dB) (910 ms)
+[  FAILED  ] 2 tests, listed below:
 [  FAILED  ] videoio/videoio_synthetic.write_read_position/21, where GetParam() = (976x768, FOURCC(MPEG), .avi, GSTREAMER, 30dB)
 [  FAILED  ] videoio/videoio_synthetic.write_read_position/24, where GetParam() = (976x768, FOURCC(MPEG), .mkv, GSTREAMER, 30dB)
-[  FAILED  ] videoio/videowriter_acceleration.write/24, where GetParam() = (FOURCC(H264), .mkv, GSTREAMER, 29dB, NONE, false)
-[  FAILED  ] videoio/videowriter_acceleration.write/25, where GetParam() = (FOURCC(H264), .mkv, GSTREAMER, 29dB, ANY, false)
-[  FAILED  ] videoio/videowriter_acceleration.write/26, where GetParam() = (FOURCC(H264), .mkv, GSTREAMER, 29dB, MFX, false)
-[  FAILED  ] videoio/videowriter_acceleration.write/27, where GetParam() = (FOURCC(H264), .mkv, GSTREAMER, 29dB, VAAPI, false)
- 6 FAILED TESTS
+ 2 FAILED TESTS
 ================================================ PASSED TESTS
-[  PASSED  ] 288 tests.
+[  PASSED  ] 292 tests.

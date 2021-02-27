@@ -19,6 +19,7 @@ RUN \
     gstreamer1-plugins-base-devel gstreamer1-plugins-base \
     gstreamer1-plugins-good \
     gstreamer1-plugins-bad-free \
+    gstreamer1-plugins-ugly \
     gstreamer1-plugins-ugly-free \
     gstreamer1-vaapi \
     libva-utils \

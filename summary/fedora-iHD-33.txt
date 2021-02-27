@@ -1,5 +1,5 @@
-ffmpeg-devel.x86_64                         4.3.1-16.fc33                     @rpmfusion-free-updates                              
-ffmpeg-libs.x86_64                          4.3.1-16.fc33                     @rpmfusion-free-updates                              
+ffmpeg-devel.x86_64                         4.3.2-1.fc33                      @rpmfusion-free-updates                              
+ffmpeg-libs.x86_64                          4.3.2-1.fc33                      @rpmfusion-free-updates                              
 gstreamer1.x86_64                           1.18.2-1.fc33                     @updates                                             
 gstreamer1-devel.x86_64                     1.18.2-1.fc33                     @updates                                             
 gstreamer1-libav.x86_64                     1.18.2-1.fc33                     @rpmfusion-free-updates                              
@@ -7,13 +7,14 @@ gstreamer1-plugins-bad-free.x86_64          1.18.2-1.fc33                     @u
 gstreamer1-plugins-base.x86_64              1.18.2-1.fc33                     @updates                                             
 gstreamer1-plugins-base-devel.x86_64        1.18.2-1.fc33                     @updates                                             
 gstreamer1-plugins-good.x86_64              1.18.2-1.fc33                     @updates                                             
+gstreamer1-plugins-ugly.x86_64              1.18.2-1.fc33                     @rpmfusion-free-updates                              
 gstreamer1-plugins-ugly-free.x86_64         1.18.2-1.fc33                     @updates                                             
 gstreamer1-vaapi.x86_64                     1.18.2-1.fc33                     @updates                                             
 intel-igc-core.x86_64                       1.0.6087-2.fc33                   @copr:copr.fedorainfracloud.org:jdanecki:intel-opencl
 intel-igc-opencl.x86_64                     1.0.6087-2.fc33                   @copr:copr.fedorainfracloud.org:jdanecki:intel-opencl
 intel-media-driver.x86_64                   20.3.0-1.fc33                     @rpmfusion-nonfree                                   
 intel-mediasdk.x86_64                       20.3.1-1.fc33                     @updates                                             
-intel-opencl.x86_64                         21.07.19042-1.fc33                @copr:copr.fedorainfracloud.org:jdanecki:intel-opencl
+intel-opencl.x86_64                         21.08.19096-1.fc33                @copr:copr.fedorainfracloud.org:jdanecki:intel-opencl
 libva.x86_64                                2.9.0-1.fc33                      @fedora                                              
 libva-devel.x86_64                          2.9.0-1.fc33                      @fedora                                              
 libva-utils.x86_64                          2.9.1-1.fc33                      @updates                                             
@@ -121,9 +122,9 @@ VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.
 VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.libx265.mp4 with PSNR-original = 31.2899
 VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 31.367
 ================================================ FAILED
-[  FAILED  ] videoio/videoio_synthetic.write_read_position/21, where GetParam() = (976x768, FOURCC(MPEG), .avi, GSTREAMER, 30dB) (916 ms)
-[  FAILED  ] videoio/videoio_synthetic.write_read_position/24, where GetParam() = (976x768, FOURCC(MPEG), .mkv, GSTREAMER, 30dB) (913 ms)
-[  FAILED  ] videoio/videocapture_acceleration.read/42, where GetParam() = (sample_322x242_15frames.yuv420p.libvpx-vp9.mp4, FFMPEG, MFX, false) (3 ms)
+[  FAILED  ] videoio/videoio_synthetic.write_read_position/21, where GetParam() = (976x768, FOURCC(MPEG), .avi, GSTREAMER, 30dB) (918 ms)
+[  FAILED  ] videoio/videoio_synthetic.write_read_position/24, where GetParam() = (976x768, FOURCC(MPEG), .mkv, GSTREAMER, 30dB) (905 ms)
+[  FAILED  ] videoio/videocapture_acceleration.read/42, where GetParam() = (sample_322x242_15frames.yuv420p.libvpx-vp9.mp4, FFMPEG, MFX, false) (4 ms)
 [  FAILED  ] 3 tests, listed below:
 [  FAILED  ] videoio/videoio_synthetic.write_read_position/21, where GetParam() = (976x768, FOURCC(MPEG), .avi, GSTREAMER, 30dB)
 [  FAILED  ] videoio/videoio_synthetic.write_read_position/24, where GetParam() = (976x768, FOURCC(MPEG), .mkv, GSTREAMER, 30dB)
