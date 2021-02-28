@@ -76,7 +76,7 @@ for dis in ${DISTRIBS}; do
     echo "================================================ ACCELERATION HW" >> summary/${tag}.txt
     grep "acceleration =" logs/run_test_${tag}.log | grep -v NONE | sort --unique >> summary/${tag}.txt
     echo "================================================ FAILED" >> summary/${tag}.txt
-    grep "FAILED" logs/run_test_${tag}.log >> summary/${tag}.txt
+    grep -e "FAILED" -e "Segmentation fault" logs/run_test_${tag}.log >> summary/${tag}.txt
     echo "================================================ PASSED TESTS" >> summary/${tag}.txt
     grep "PASSED" logs/run_test_${tag}.log >> summary/${tag}.txt
     echo SUMMARY
