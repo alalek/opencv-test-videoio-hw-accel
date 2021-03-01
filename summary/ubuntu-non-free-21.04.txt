@@ -1,4 +1,4 @@
-ffmpeg/now 7:4.3.1-8ubuntu1 amd64 [installed,local]
+ffmpeg/now 7:4.3.2-0+deb11u1ubuntu1 amd64 [installed,local]
 gir1.2-gstreamer-1.0/now 1.18.3-1 amd64 [installed,local]
 gstreamer1.0-libav/now 1.18.3-1 amd64 [installed,local]
 gstreamer1.0-plugins-bad/now 1.18.3-1ubuntu2 amd64 [installed,local]
@@ -35,33 +35,25 @@ ocl-icd-libopencl1/now 2.2.14-2 amd64 [installed,local]
 va-driver-all/now 2.10.0-1 amd64 [installed,local]
 ================================================ ACCELERATION ALL
 VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 30.1538
-VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 30.1538
 VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 30.1538
 VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 30.1538
 VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 29.7925
 VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 29.7925
-VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 29.7925
-VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 29.7925
+VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.mjpeg.mp4 with PSNR-original = 30.6752
 VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.mjpeg.mp4 with PSNR-original = 30.6752
 VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.mjpeg.mp4 with PSNR-original = 31.8029
-VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.mjpeg.mp4 with PSNR-original = 30.6752
-VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.mjpeg.mp4 with PSNR-original = 31.8029
-VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.mjpeg.mp4 with PSNR-original = 21.9118
-VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.mjpeg.mp4 with PSNR-original = 21.9118
 VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.mjpeg.mp4 with PSNR-original = 21.9118
 VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.mjpeg.mp4 with PSNR-original = 21.9118
 VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 30.796
-VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 31.8763
-VideoCapture with acceleration = MFX    @ FFMPEG     on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 31.8777
+VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 30.796
 VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 31.8763
 VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 31.2869
 ================================================ ACCELERATION HW
-VideoCapture with acceleration = MFX    @ FFMPEG     on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 31.8777
 VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 30.1538
 VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.mjpeg.mp4 with PSNR-original = 31.8029
 VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 31.8763
 VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 31.2869
 ================================================ FAILED
-[  FAILED  ] videoio/videoio_synthetic.write_read_position/21, where GetParam() = (976x768, FOURCC(MPEG), .avi, GSTREAMER, 30dB) (924 ms)
-[  FAILED  ] videoio/videoio_synthetic.write_read_position/24, where GetParam() = (976x768, FOURCC(MPEG), .mkv, GSTREAMER, 30dB) (957 ms)
+/app/run_test.sh: line 10:    11 Segmentation fault      (core dumped) /app/build/bin/opencv_test_videoio "$@"
+opencv_test_videoio FAILED with errorcode=139
 ================================================ PASSED TESTS
