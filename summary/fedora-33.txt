@@ -54,8 +54,8 @@ VideoWriter with acceleration = NONE   @ FFMPEG     on codec=XVID (.avi), bitrat
 VideoWriter with acceleration = NONE   @ FFMPEG     on codec=XVID (.avi), bitrate = 222117, with PSNR-original = 34.7491
 VideoWriter with acceleration = NONE   @ GSTREAMER  on codec=MPEG (.mkv), bitrate = 279113, with PSNR-original = 34.896
 VideoWriter with acceleration = NONE   @ GSTREAMER  on codec=MPEG (.mkv), bitrate = 279113, with PSNR-original = 34.896
-VideoWriter with acceleration = NONE   @ GSTREAMER  on codec=H264 (.mkv), bitrate = 89241.7, with PSNR-original = 50.6263
 VideoWriter with acceleration = NONE   @ GSTREAMER  on codec=H264 (.mkv), bitrate = 88455, with PSNR-original = 50.6263
+VideoWriter with acceleration = NONE   @ GSTREAMER  on codec=H264 (.mkv), bitrate = 88620, with PSNR-original = 50.6263
 ================================================ ACCELERATION HW
 ================================================ FAILED
 ================================================ PASSED TESTS

@@ -40,11 +40,11 @@ VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.
 VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 30.796
 VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 30.7813
 VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 30.7813
-VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 24.3895
+VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 25.3387
 VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 30.9205
 VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 30.9205
-VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 26.0151
-VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 25.2377
+VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 24.4435
+VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 25.3059
 VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 24.4274
 VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libx265.mp4 with PSNR-original = 30.7278
 VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libx265.mp4 with PSNR-original = 30.7278
@@ -66,13 +66,13 @@ VideoWriter with acceleration = NONE   @ FFMPEG     on codec=XVID (.avi), bitrat
 VideoWriter with acceleration = NONE   @ FFMPEG     on codec=XVID (.avi), bitrate = 222120, with PSNR-original = 34.7491
 VideoWriter with acceleration = NONE   @ GSTREAMER  on codec=MPEG (.mkv), bitrate = 139368, with PSNR-original = 33.3255
 VideoWriter with acceleration = NONE   @ GSTREAMER  on codec=MPEG (.mkv), bitrate = 139368, with PSNR-original = 33.3255
-VideoWriter with acceleration = NONE   @ GSTREAMER  on codec=H264 (.mkv), bitrate = 88628.3, with PSNR-original = 50.6925
-VideoWriter with acceleration = NONE   @ GSTREAMER  on codec=H264 (.mkv), bitrate = 89326.7, with PSNR-original = 50.6925
+VideoWriter with acceleration = NONE   @ GSTREAMER  on codec=H264 (.mkv), bitrate = 89013.3, with PSNR-original = 50.6925
+VideoWriter with acceleration = NONE   @ GSTREAMER  on codec=H264 (.mkv), bitrate = 89013.3, with PSNR-original = 50.6925
 ================================================ ACCELERATION HW
 VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 24.4274
-VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 25.2377
-VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 26.0151
-VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 24.3895
+VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 24.4435
+VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 25.3059
+VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 25.3387
 VideoCapture with acceleration = VAAPI  @ GSTREAMER  on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 30.7813
 ================================================ FAILED
 ================================================ PASSED TESTS

@@ -47,12 +47,12 @@ FFMPEG VideoWriter on codec XVID: acceleration = NONE, bitrate = 222117, PSNR = 
 FFMPEG VideoWriter on codec XVID: acceleration = NONE, bitrate = 222117, PSNR = 34.7491
 GSTREAMER VideoWriter on codec MPEG: acceleration = NONE, bitrate = 143122, PSNR = 34.9951
 GSTREAMER VideoWriter on codec MPEG: acceleration = NONE, bitrate = 143122, PSNR = 34.9951
-GSTREAMER VideoWriter on codec H264: acceleration = NONE, bitrate = 88581.7, PSNR = 50.6263
-GSTREAMER VideoWriter on codec H264: acceleration = NONE, bitrate = 88588.3, PSNR = 50.6263
+GSTREAMER VideoWriter on codec H264: acceleration = NONE, bitrate = 88331.7, PSNR = 50.6263
+GSTREAMER VideoWriter on codec H264: acceleration = NONE, bitrate = 88548.3, PSNR = 50.6263
 ================================================ ACCELERATION HW
 ================================================ FAILED
-[  FAILED  ] videoio/videocapture_acceleration.read/10, where GetParam() = (sample_322x242_15frames.yuv420p.mpeg2video.mp4, GSTREAMER, false) (51 ms)
-[  FAILED  ] videoio/videocapture_acceleration.read/11, where GetParam() = (sample_322x242_15frames.yuv420p.mpeg2video.mp4, GSTREAMER, true) (49 ms)
+[  FAILED  ] videoio/videocapture_acceleration.read/10, where GetParam() = (sample_322x242_15frames.yuv420p.mpeg2video.mp4, GSTREAMER, false) (50 ms)
+[  FAILED  ] videoio/videocapture_acceleration.read/11, where GetParam() = (sample_322x242_15frames.yuv420p.mpeg2video.mp4, GSTREAMER, true) (53 ms)
 [  FAILED  ] 2 tests, listed below:
 [  FAILED  ] videoio/videocapture_acceleration.read/10, where GetParam() = (sample_322x242_15frames.yuv420p.mpeg2video.mp4, GSTREAMER, false)
 [  FAILED  ] videoio/videocapture_acceleration.read/11, where GetParam() = (sample_322x242_15frames.yuv420p.mpeg2video.mp4, GSTREAMER, true)

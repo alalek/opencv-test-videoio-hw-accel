@@ -20,50 +20,50 @@ libva-devel.x86_64                          2.10.0-i482.el8                     
 libva-utils.x86_64                          2.10.0-i482.el8                        @intel-graphics-rhel-8.1
 ================================================ ACCELERATION ALL
 VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 30.1538
-VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 30.1538
+[0mVideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 30.1538
 [0mVideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 30.1538
 VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.mjpeg.mp4 with PSNR-original = 30.6752
-VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.mjpeg.mp4 with PSNR-original = 30.6752
+VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.mjpeg.mp4 with PSNR-original = 31.8029
 VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.mjpeg.mp4 with PSNR-original = 31.8029
 VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.mjpeg.mp4 with PSNR-original = 21.9118
 VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.mjpeg.mp4 with PSNR-original = 21.9118
 VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 30.796
-VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 30.796
+VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 31.8763
 VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.mpeg2video.mp4 with PSNR-original = 31.8763
 VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 30.9205
-VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 30.9205
+VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 32.0695
 VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 32.0695
 VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libx265.mp4 with PSNR-original = 30.7278
-VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libx265.mp4 with PSNR-original = 30.7278
+VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.libx265.mp4 with PSNR-original = 31.7869
 VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.libx265.mp4 with PSNR-original = 31.7869
 VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libvpx-vp9.mp4 with PSNR-original = 30.8839
-VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libvpx-vp9.mp4 with PSNR-original = 30.8839
+[0mVideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.libvpx-vp9.mp4 with PSNR-original = 30.8839
 [0mVideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.libvpx-vp9.mp4 with PSNR-original = 30.8839
 VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.libvpx-vp9.mp4 with PSNR-original = 30.5362
 VideoCapture with acceleration = NONE   @ GSTREAMER  on sample_322x242_15frames.yuv420p.libvpx-vp9.mp4 with PSNR-original = 30.5362
 VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libaom-av1.mp4 with PSNR-original = 30.8718
 VideoCapture with acceleration = NONE   @ FFMPEG     on sample_322x242_15frames.yuv420p.libaom-av1.mp4 with PSNR-original = 30.8718
 VideoWriter with acceleration = NONE   @ FFMPEG     on codec=MPEG (.mp4), bitrate = 272782, with PSNR-original = 34.8978
-VideoWriter with acceleration = NONE   @ FFMPEG     on codec=MPEG (.mp4), bitrate = 272782, with PSNR-original = 34.8978
+VideoWriter with acceleration = MFX    @ FFMPEG     on codec=MPEG (.mp4), bitrate = 162660, with PSNR-original = 35.7893
 VideoWriter with acceleration = MFX    @ FFMPEG     on codec=MPEG (.mp4), bitrate = 162660, with PSNR-original = 35.7893
 VideoWriter with acceleration = VAAPI  @ FFMPEG     on codec=MPEG (.mp4), bitrate = 220120, with PSNR-original = 35.7893
 VideoWriter with acceleration = NONE   @ FFMPEG     on codec=H264 (.mp4), bitrate = 31993.3, with PSNR-original = 34.4139
-VideoWriter with acceleration = NONE   @ FFMPEG     on codec=H264 (.mp4), bitrate = 31993.3, with PSNR-original = 34.4139
+VideoWriter with acceleration = MFX    @ FFMPEG     on codec=H264 (.mp4), bitrate = 99895, with PSNR-original = 37.1323
 VideoWriter with acceleration = MFX    @ FFMPEG     on codec=H264 (.mp4), bitrate = 99895, with PSNR-original = 37.1323
 VideoWriter with acceleration = VAAPI  @ FFMPEG     on codec=H264 (.mp4), bitrate = 298417, with PSNR-original = 37.1901
 VideoWriter with acceleration = NONE   @ FFMPEG     on codec=HEVC (.mp4), bitrate = 170862, with PSNR-original = 35.2004
-VideoWriter with acceleration = NONE   @ FFMPEG     on codec=HEVC (.mp4), bitrate = 170862, with PSNR-original = 35.2004
+VideoWriter with acceleration = MFX    @ FFMPEG     on codec=HEVC (.mp4), bitrate = 115472, with PSNR-original = 37.1341
 VideoWriter with acceleration = MFX    @ FFMPEG     on codec=HEVC (.mp4), bitrate = 115472, with PSNR-original = 37.1341
 VideoWriter with acceleration = VAAPI  @ FFMPEG     on codec=HEVC (.mp4), bitrate = 167310, with PSNR-original = 37.1808
 VideoWriter with acceleration = NONE   @ FFMPEG     on codec=MJPG (.avi), bitrate = 307503, with PSNR-original = 36.6545
 VideoWriter with acceleration = NONE   @ FFMPEG     on codec=MJPG (.avi), bitrate = 307503, with PSNR-original = 36.6545
 VideoWriter with acceleration = NONE   @ FFMPEG     on codec=XVID (.avi), bitrate = 222117, with PSNR-original = 34.7491
 VideoWriter with acceleration = NONE   @ FFMPEG     on codec=XVID (.avi), bitrate = 222117, with PSNR-original = 34.7491
-VideoWriter with acceleration = NONE   @ GSTREAMER  on codec=H264 (.mkv), bitrate = 88505, with PSNR-original = 50.6263
-VideoWriter with acceleration = NONE   @ GSTREAMER  on codec=H264 (.mkv), bitrate = 88636.7, with PSNR-original = 50.6263
+VideoWriter with acceleration = NONE   @ GSTREAMER  on codec=H264 (.mkv), bitrate = 88596.7, with PSNR-original = 50.6263
+VideoWriter with acceleration = NONE   @ GSTREAMER  on codec=H264 (.mkv), bitrate = 88780, with PSNR-original = 50.6263
 ================================================ ACCELERATION HW
-VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.libvpx-vp9.mp4 with PSNR-original = 30.8839
-VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 30.1538
+[0mVideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.libvpx-vp9.mp4 with PSNR-original = 30.8839
+[0mVideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.libxvid.mp4 with PSNR-original = 30.1538
 VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.libx264.mp4 with PSNR-original = 32.0695
 VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.libx265.mp4 with PSNR-original = 31.7869
 VideoCapture with acceleration = VAAPI  @ FFMPEG     on sample_322x242_15frames.yuv420p.mjpeg.mp4 with PSNR-original = 31.8029
@@ -76,7 +76,7 @@ VideoWriter with acceleration = VAAPI  @ FFMPEG     on codec=HEVC (.mp4), bitrat
 VideoWriter with acceleration = VAAPI  @ FFMPEG     on codec=MPEG (.mp4), bitrate = 220120, with PSNR-original = 35.7893
 ================================================ FAILED
 [  FAILED  ] videoio/videocapture_acceleration.read/20, where GetParam() = (sample_322x242_15frames.yuv420p.mpeg2video.mp4, GSTREAMER, NONE, false) (50 ms)
-[  FAILED  ] videoio/videocapture_acceleration.read/21, where GetParam() = (sample_322x242_15frames.yuv420p.mpeg2video.mp4, GSTREAMER, ANY, false) (50 ms)
+[  FAILED  ] videoio/videocapture_acceleration.read/21, where GetParam() = (sample_322x242_15frames.yuv420p.mpeg2video.mp4, GSTREAMER, ANY, false) (51 ms)
 [  FAILED  ] videoio/videowriter_acceleration.write/20, where GetParam() = (FOURCC(MPEG), .mkv, GSTREAMER, 29dB, NONE, false) (53 ms)
 [  FAILED  ] videoio/videowriter_acceleration.write/21, where GetParam() = (FOURCC(MPEG), .mkv, GSTREAMER, 29dB, ANY, false) (53 ms)
 [  FAILED  ] 4 tests, listed below:
